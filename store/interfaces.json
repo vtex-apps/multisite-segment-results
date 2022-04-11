@@ -1,5 +1,8 @@
 {
-  "countdown": {
-    "component": "Countdown"
+  "multisite": {
+    "component": "Multisite",
+    "content": {
+      "$ref": "#/definitions/Multisite"
+    }
   }
 }

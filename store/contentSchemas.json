@@ -1,0 +1,49 @@
+{
+    "definitions": {
+        "Multisite": {
+            "type": "object",
+            "properties": {
+                "parameter": {
+                    "title": "editor.multisite.parameter",
+                    "type": "string",
+                    "enum": [
+                        "productClustersIds",
+                        "categoryId",
+                        "brandId"
+                    ],
+                    "default": "productClustersIds"
+                },
+                "parameterName1": {
+                    "title": "editor.multisite.navigation.name1",
+                    "type": "string",
+                    "default": "X"
+                },
+                "idValue1": {
+                    "title": "editor.multisite.navigation.value1",
+                    "type": "number",
+                    "default": null
+                },
+                "parameterName2": {
+                    "title": "editor.multisite.navigation.name2",
+                    "type": "string",
+                    "default": "X"
+                },
+                "idValue2": {
+                    "title": "editor.multisite.navigation.value2",
+                    "type": "number",
+                    "default": null
+                },
+                "parameterName3": {
+                    "title": "editor.multisite.navigation.name3",
+                    "type": "string",
+                    "default": "X"
+                },
+                "idValue3": {
+                    "title": "editor.multisite.navigation.value3",
+                    "type": "number",
+                    "default": null
+                }
+            }   
+        }
+    }
+}

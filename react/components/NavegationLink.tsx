@@ -3,8 +3,10 @@ import styles from '../styles/styles.css'
 
 interface NavigationLinkProps {
     parameter: string,
-    parameterName: string,
-    idValue: number
+    src: string,
+    alt: string,
+    title: string,
+    idValue: number,
 }
 
 const SetFacets = async(parameter: string, parameterValue: number, btn: string, activeClass: any) => {
@@ -41,14 +43,16 @@ const SetLocalStorageBtnActiveClass = (btn: string, activeClass: string) =>{
   localStorage.setItem("btnActiveClass", activeClass);
 }
  
-const NavigationLink: StorefrontFunctionComponent<NavigationLinkProps> = ({parameter, parameterName, idValue}) => {
+const NavigationLink: StorefrontFunctionComponent<NavigationLinkProps> = ({parameter, src, alt, title, idValue}) => {
 
   return (
     <>
-      <button id={`btn-${parameterName}`} className={styles.brandLink} onClick={() => {
-          SetCssClassById(`btn-${parameterName}`, styles.active);
-          SetFacets(parameter, idValue, `btn-${parameterName}`, styles.active);
-        }}>{parameterName}</button>
+      <button id={`btn-${title}`} className={styles.brandLink} onClick={() => {
+          SetCssClassById(`btn-${title}`, styles.active);
+          SetFacets(parameter, idValue, `btn-${title}`, styles.active);
+        }}>
+          <img src={src} alt={alt} />  
+      </button>
     </>
   )
 }

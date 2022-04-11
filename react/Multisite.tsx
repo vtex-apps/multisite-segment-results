@@ -3,11 +3,17 @@ import NavigationLink from './components/NavegationLink';
 
 interface MultisiteProps {
   parameter: string,
-  parameterName1: string,
+  src1: string,
+  alt1: string,
+  title1: string,
   idValue1: number,
-  parameterName2: string,
+  src2: string,
+  alt2: string,
+  title2: string,
   idValue2: number,
-  parameterName3: string,
+  src3: string,
+  alt3: string,
+  title3: string,
   idValue3: number
 }
 
@@ -25,7 +31,22 @@ const SetActiveClassOnReload = () =>{
 }
  
 const Multisite: StorefrontFunctionComponent<MultisiteProps> = ({
-    parameter, parameterName1, idValue1, parameterName2, idValue2, parameterName3, idValue3
+    parameter, 
+    src1, 
+    alt1,
+    title1, 
+    idValue1, 
+
+    src2, 
+    alt2,
+    title2, 
+    idValue2, 
+
+    src3, 
+    alt3,
+    title3,
+    idValue3, 
+    
   }) => {
   
   useEffect(() => {
@@ -33,24 +54,33 @@ const Multisite: StorefrontFunctionComponent<MultisiteProps> = ({
   }, []);
 
   return (
-    <div className="flex ph7 pv6">
+    <div className="flex ph7 pv6 items-center">
 
       <NavigationLink 
         parameter={parameter} 
-        parameterName={parameterName1} 
-        idValue={idValue1}>
+        src={src1}
+        alt={alt1}
+        title={title1}
+        idValue={idValue1}
+        >
       </NavigationLink>
 
       <NavigationLink 
         parameter={parameter} 
-        parameterName={parameterName2} 
-        idValue={idValue2}>
+        src={src2}
+        alt={alt2}
+        title={title2}
+        idValue={idValue2}
+        >
       </NavigationLink>
 
       <NavigationLink 
         parameter={parameter} 
-        parameterName={parameterName3} 
-        idValue={idValue3}>
+        src={src3}
+        alt={alt3}
+        title={title3}
+        idValue={idValue3}
+        >
       </NavigationLink>
 
     </div>

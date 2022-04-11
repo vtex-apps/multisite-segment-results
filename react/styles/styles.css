@@ -5,14 +5,15 @@
     text-decoration: none;
     margin-right: .5rem;
     padding: .5rem 3rem;
-    width: auto;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .brandLink:hover {
     border: 1px solid rgba(150, 150, 150, 0.322);
     cursor: pointer;
-    background-color: rgba(150, 150, 150, 0.322);
-    color: rgba(44, 44, 44, 0.322);
     transition: .3s all ease-in;
 }
 
@@ -20,4 +21,9 @@
     background-color: rgba(150, 150, 150, 0.322);
     color: rgba(44, 44, 44, 0.322);
     transition: .3s all ease-in;
+}
+
+.brandLink img {
+    width: 100%;
+    height: auto;
 }

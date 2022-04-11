@@ -1,4 +1,13 @@
 {
-  "editor.countdown.title": "Cuenta regresiva",
-  "editor.countdown.description": "Cuenta regresiva component"
+  "editor.multisite.title"                     : "Multisitio",
+  "editor.multisite.description"               : "Componente Multisitio",
+  "editor.multisite.parameter"                 : "Parametro de segmentación",
+  "editor.multisite.parameter.description"     : "Parámetro del producto utilizado para la segmentación de búsqueda.",
+  "editor.multisite.navigation.name1"          : "Primer nombre de la navegación",
+  "editor.multisite.navigation.default"        : "Nombre",
+  "editor.multisite.navigation.value1"         : "Primer ID de parametro",
+  "editor.multisite.navigation.name2"          : "Segundo nombre de la navegación",
+  "editor.multisite.navigation.value2"         : "Segundo ID de parametro",
+  "editor.multisite.navigation.name3"          : "Tercer nombre de la navegación",
+  "editor.multisite.navigation.value3"         : "Tercer ID de parametro"
 }

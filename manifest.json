@@ -1,9 +1,9 @@
 {
-  "vendor": "vtex",
-  "name": "countdown",
+  "vendor": "vtexarg",
+  "name": "multisite-segment-results",
   "version": "0.0.1",
-  "title": "Countdown",
-  "description": "Countdown component",
+  "title": "Multisite Segment Results",
+  "description": "Multisite Segment Results component",
   "defaultLocale": "pt-BR",
   "builders": {
     "messages": "1.x",

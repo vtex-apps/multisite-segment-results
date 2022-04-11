@@ -1,3 +1,2 @@
-# Store Block course template
+# Multisite Segment Results
 
-Here you'll learn how to create awesome Store Framework blocks!

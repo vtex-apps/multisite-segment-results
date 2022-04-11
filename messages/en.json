@@ -9,5 +9,8 @@
   "editor.multisite.navigation.name2"          : "Second navigation name",
   "editor.multisite.navigation.value2"         : "Second parameter ID",
   "editor.multisite.navigation.name3"          : "Third navigation name",
-  "editor.multisite.navigation.value3"         : "Third parameter ID"
+  "editor.multisite.navigation.value3"         : "Third parameter ID",
+  "editor.image.src.title"                     : "Src",
+  "editor.image.alt.title"                     : "Alt",
+  "editor.image.title.title"                   : "Title"
 }

@@ -18,7 +18,7 @@
 }
 
 .active {
-    background-color: rgba(150, 150, 150, 0.322);
+    border: 1px solid rgba(150, 150, 150, 0.322);
     color: rgba(44, 44, 44, 0.322);
     transition: .3s all ease-in;
 }

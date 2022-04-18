@@ -215,10 +215,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@vtex/api@6.45.10":
-  version "6.45.10"
-  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.45.10.tgz#d338d05341e176593124fa171ea5710eee802e61"
-  integrity sha512-1OllEdBosqGbyGSvQtJzplmOISj2jalpgTDhRWlzhCdkGYbAg0Sm4doudKfZdvizu/6D1Dz4Uy2YncT6M3Vzng==
+"@vtex/api@6.45.12":
+  version "6.45.12"
+  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.45.12.tgz#b13c04398b12f576263ea823369f09c970d57479"
+  integrity sha512-SVLKo+Q/TxQy+1UKzH8GswTI3F2OCRCLfgaNQOrVAVdbM6Ci4wzTeX8j/S4Q1aEEnqBFlH/wVpHf8I6NBa+g9A==
   dependencies:
     "@types/koa" "^2.11.0"
     "@types/koa-compose" "^3.2.3"
@@ -3044,9 +3044,9 @@ vary@^1.1.2:
   version "9.146.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide#66db40ca1b78ad77ce4beedabecee320e1ef2ead"
 
-"vtexarg.multisite-segment-results@https://multisitio--tiendadevi.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@0.0.1+build1650249286/public/@types/vtexarg.multisite-segment-results":
+"vtexarg.multisite-segment-results@https://multisitio--tiendadevi.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@0.0.1+build1650306768/public/@types/vtexarg.multisite-segment-results":
   version "0.0.0"
-  resolved "https://multisitio--tiendadevi.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@0.0.1+build1650249286/public/@types/vtexarg.multisite-segment-results#fed7031861ae407dab2e0ef65adc35132069aef0"
+  resolved "https://multisitio--tiendadevi.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@0.0.1+build1650306768/public/@types/vtexarg.multisite-segment-results#adc374259dec9a9b3c7dc5c8d15ed35a5c050cc9"
 
 which-pm-runs@^1.0.0:
   version "1.0.0"

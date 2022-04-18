@@ -44,7 +44,6 @@ const SetLocalStorageBtnActiveClass = (btn: string, activeClass: string) =>{
 }
  
 const NavigationLink: StorefrontFunctionComponent<NavigationLinkProps> = ({parameter, src, alt, title, idValue}) => {
-
   return (
     <>
       <button id={`btn-${title}`} className={styles.brandLink} onClick={() => {

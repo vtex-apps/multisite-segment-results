@@ -8,12 +8,35 @@
   "builders": {
     "messages": "1.x",
     "store": "0.x",
-    "react": "3.x"
+    "react": "3.x",
+    "docs": "0.x",
+    "node": "6.x"
   },
   "dependencies": {
     "vtex.native-types": "0.x",
     "vtex.styleguide": "9.x",
-    "vtex.css-handles": "0.x"
+    "vtex.css-handles": "0.x",
+    "vtex.messages": "1.x",
+    "vtex.search-segment-graphql": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.search-session": "0.x"
   },
+  "settingsSchema": {
+    "title": "Multisite Segment Results",
+    "type": "object",
+    "properties": {
+      "parameter": {
+        "title": "Product segmentation parameter",
+        "description": "You need to set this parameter for the component to be able to configure the search. (E.g. productClusterIds, brandId, categoryId)",
+        "type": "string"
+      },
+      "parameterValue": {
+        "title": "Default parameter ID",
+        "description": "You need to configure this ID to indicate the results when the user is not authenticated.",
+        "type": "string"
+      }
+    }
+  },
+  "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

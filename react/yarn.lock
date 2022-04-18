@@ -4993,7 +4993,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^3.9.6, typescript@^3.9.7:
+typescript@3.9.7, typescript@^3.9.7:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
@@ -5091,13 +5091,37 @@ verror@1.10.0:
   version "0.4.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.120.0/public/@types/vtex.render-runtime":
-  version "8.120.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.120.0/public/@types/vtex.render-runtime#c5288e637b3bfb8854a48585feefe4992c0a2d80"
+"vtex.messages@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.messages@1.65.0/public/@types/vtex.messages":
+  version "1.65.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.messages@1.65.0/public/@types/vtex.messages#b54773248bbeddaa65eb0236091767c88fdb2798"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.129.0/public/@types/vtex.styleguide":
-  version "9.129.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.129.0/public/@types/vtex.styleguide#916e6fbd7f14585c9e07e040d41d8966860affba"
+"vtex.native-types@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.8.0/public/@types/vtex.native-types":
+  version "0.8.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.8.0/public/@types/vtex.native-types#4fb38349122295832408d511efefa604a0addc57"
+
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
+  version "8.132.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime#66bb41bd4d342e37c9d85172aad5f7eefebfb6dc"
+
+"vtex.search-segment-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-segment-graphql@0.1.1/public/@types/vtex.search-segment-graphql":
+  version "0.1.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-segment-graphql@0.1.1/public/@types/vtex.search-segment-graphql#0693fd0527cdf21b3f2c91a3590c7f57ee9cd33a"
+
+"vtex.search-session@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-session@0.2.10/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-session@0.2.10/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.store-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.151.0/public/@types/vtex.store-graphql":
+  version "2.151.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.151.0/public/@types/vtex.store-graphql#fa43fc97600a917512dbcd77f5b0723214f178fd"
+
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide":
+  version "9.146.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide#66db40ca1b78ad77ce4beedabecee320e1ef2ead"
+
+"vtexarg.multisite-segment-results@https://multisitio--tiendadevi.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@0.0.1+build1650306768/public/@types/vtexarg.multisite-segment-results":
+  version "0.0.0"
+  resolved "https://multisitio--tiendadevi.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@0.0.1+build1650306768/public/@types/vtexarg.multisite-segment-results#adc374259dec9a9b3c7dc5c8d15ed35a5c050cc9"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

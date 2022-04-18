@@ -7,11 +7,11 @@
                     "title": "editor.multisite.parameter",
                     "type": "string",
                     "enum": [
-                        "productClustersIds",
+                        "productClusterIds",
                         "categoryId",
                         "brandId"
                     ],
-                    "default": "productClustersIds"
+                    "default": "productClusterIds"
                 },
                 "src1": {
                     "title": "admin/editor.image.src.title",
@@ -82,6 +82,26 @@
                 },
                 "idValue3": {
                     "title": "editor.multisite.navigation.value3",
+                    "type": "number",
+                    "default": null
+                }
+            }   
+        },
+        "ConditionalSegmentBlock": {
+            "type": "object",
+            "properties": {
+                "segmentParameter": {
+                    "title": "segmentParameter",
+                    "type": "string",
+                    "enum": [
+                        "productClusterIds",
+                        "categoryId",
+                        "brandId"
+                    ],
+                    "default": "productClusterIds"
+                },
+                "segmentValue": {
+                    "title": "segmentValue",
                     "type": "number",
                     "default": null
                 }

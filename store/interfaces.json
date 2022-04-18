@@ -4,5 +4,12 @@
     "content": {
       "$ref": "#/definitions/Multisite"
     }
+  },
+  "conditionalSegmentBlock": {
+    "component": "ConditionalSegmentBlock",
+    "composition": "children",
+    "content": {
+      "$ref": "#/definitions/ConditionalSegmentBlock"
+    }
   }
 }

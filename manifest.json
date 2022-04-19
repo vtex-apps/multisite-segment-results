@@ -1,7 +1,7 @@
 {
   "vendor": "vtexarg",
   "name": "multisite-segment-results",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "title": "Multisite Segment Results",
   "description": "Multisite Segment Results component",
   "defaultLocale": "pt-BR",
@@ -39,7 +39,9 @@
   },
   "billingOptions": {
     "free": true,
-    "availableCountries" : ["*"]
+    "availableCountries": [
+      "*"
+    ]
   },
   "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

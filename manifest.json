@@ -1,7 +1,7 @@
 {
   "vendor": "vtexarg",
   "name": "multisite-segment-results",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "title": "Multisite Segment Results",
   "description": "Multisite Segment Results component",
   "defaultLocale": "pt-BR",

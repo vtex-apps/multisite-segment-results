@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from '../styles/styles.css'
+import React from 'react';
+import styles from '../styles/styles.css';
 
 interface NavigationLinkProps {
     parameter: string,
@@ -44,9 +44,13 @@ const SetLocalStorageBtnActiveClass = (btn: string, activeClass: string) =>{
 }
  
 const NavigationLink: StorefrontFunctionComponent<NavigationLinkProps> = ({parameter, src, alt, title, idValue}) => {
+  
   return (
     <>
-      <button id={`btn-${title}`} className={styles.brandLink} onClick={() => {
+      <button 
+        id={`btn-${title}`} 
+        className={styles.navigationLink} 
+        onClick={() => {
           SetCssClassById(`btn-${title}`, styles.active);
           SetFacets(parameter, idValue, `btn-${title}`, styles.active);
         }}>

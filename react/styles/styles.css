@@ -1,17 +1,17 @@
-.brandLink {
+.navigationLink {
     border: 1px solid transparent;
     background-color: transparent;
     color: rgba(150, 150, 150, 0.322);
     text-decoration: none;
     margin-right: .5rem;
-    padding: .5rem 3rem;
-    width: 200px;
-    height: 70px;
+    padding: .5rem 1.5rem;
+    width: 150px;
+    height: 60px;
     display: flex;
     align-items: center;
 }
 
-.brandLink:hover {
+.navigationLink:hover {
     border: 1px solid rgba(150, 150, 150, 0.322);
     cursor: pointer;
     transition: .3s all ease-in;
@@ -23,7 +23,7 @@
     transition: .3s all ease-in;
 }
 
-.brandLink img {
+.navigationLink img {
     width: 100%;
     height: auto;
 }

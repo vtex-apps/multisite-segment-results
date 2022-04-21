@@ -1,5 +1,7 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import NavigationLink from './components/NavegationLink';
+// import LoadingSpinner from './components/LoadingSpinner'
+import { useCssHandles } from 'vtex.css-handles';
 
 interface MultisiteProps {
   parameter: string,
@@ -53,8 +55,14 @@ const Multisite: StorefrontFunctionComponent<MultisiteProps> = ({
     SetActiveClassOnReload();
   }, []);
 
+  const CSS_HANDLES = [
+    'multisiteSegmentatitionResultsContainer',
+  ]
+
+  const handles = useCssHandles(CSS_HANDLES)
+
   return (
-    <div className="flex ph7 pv6 items-center">
+    <div className={`${handles.multisiteSegmentatitionResultsContainer} flex ph7 pv2 items-center`}>
 
       <NavigationLink 
         parameter={parameter} 

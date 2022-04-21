@@ -1,3 +1,7 @@
+export interface Runtime {
+  segmentToken: string
+}
+
 export interface TimeSplit {
   hours: string
   minutes: string

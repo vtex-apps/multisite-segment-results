@@ -91,7 +91,7 @@
             "type": "object",
             "properties": {
                 "segmentParameter": {
-                    "title": "segmentParameter",
+                    "title": "editor.multisite.parameter",
                     "type": "string",
                     "enum": [
                         "productClusterIds",

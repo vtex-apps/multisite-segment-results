@@ -7,7 +7,7 @@
   "devDependencies": {
     "@types/atob": "^2.1.2",
     "@types/node": "^12.12.21",
-    "@vtex/api": "6.45.12",
+    "@vtex/api": "6.45.10",
     "@vtex/prettier-config": "^0.1.3",
     "eslint": "^6.8.0",
     "eslint-config-vtex": "^12.2.1",
@@ -20,9 +20,9 @@
     "vtex.native-types": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.8.0/public/@types/vtex.native-types",
     "vtex.search-segment-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-segment-graphql@0.1.1/public/@types/vtex.search-segment-graphql",
     "vtex.search-session": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-session@0.2.10/public/_types/react",
-    "vtex.store-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.151.0/public/@types/vtex.store-graphql",
+    "vtex.store-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.152.0/public/@types/vtex.store-graphql",
     "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide",
-    "vtexarg.multisite-segment-results": "https://multisitio--tiendadevi.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@0.0.1+build1650306768/public/@types/vtexarg.multisite-segment-results"
+    "vtexarg.multisite-segment-results": "https://multisitesegment--pocmultisitiofty.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@1.0.1+build1650480940/public/@types/vtexarg.multisite-segment-results"
   },
   "version": "0.1.4"
 }

@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "@vtex/css-handles": "^1.0.0",
+    "atob": "^2.1.2",
     "classnames": "^2.2.6",
     "ramda": "^0.26.1",
     "react": "^16.12.0",
@@ -13,6 +14,7 @@
   },
   "devDependencies": {
     "@apollo/react-testing": "^3.1.3",
+    "@types/atob": "^2.1.2",
     "@types/classnames": "^2.2.7",
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.5",
@@ -31,8 +33,8 @@
     "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime",
     "vtex.search-segment-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-segment-graphql@0.1.1/public/@types/vtex.search-segment-graphql",
     "vtex.search-session": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-session@0.2.10/public/_types/react",
-    "vtex.store-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.151.0/public/@types/vtex.store-graphql",
+    "vtex.store-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.152.0/public/@types/vtex.store-graphql",
     "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide",
-    "vtexarg.multisite-segment-results": "https://multisitio--tiendadevi.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@0.0.1+build1650306768/public/@types/vtexarg.multisite-segment-results"
+    "vtexarg.multisite-segment-results": "https://multisitesegment--pocmultisitiofty.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@1.0.1+build1650480940/public/@types/vtexarg.multisite-segment-results"
   }
 }

@@ -1,5 +1,8 @@
 import React from 'react';
+import { useState } from 'react';
 import styles from '../styles/styles.css';
+import LoadingSpinner from './LoadingSpinner';
+// import LoadingSpinner from './component/LoadingSpinner';
 
 interface NavigationLinkProps {
     parameter: string,
@@ -42,19 +45,24 @@ const SetLocalStorageBtnActiveClass = (btn: string, activeClass: string) =>{
   localStorage.setItem("btnActiveElement", btn);
   localStorage.setItem("btnActiveClass", activeClass);
 }
- 
+
 const NavigationLink: StorefrontFunctionComponent<NavigationLinkProps> = ({parameter, src, alt, title, idValue}) => {
   
+  const [loadingState, SetLoadingState] = useState(false);
+
+  let content = loadingState ? <LoadingSpinner/> : <img src={src} alt={alt} /> ;
+
   return (
     <>
       <button 
         id={`btn-${title}`} 
-        className={styles.navigationLink} 
+        className={styles.navigationLink}
         onClick={() => {
           SetCssClassById(`btn-${title}`, styles.active);
           SetFacets(parameter, idValue, `btn-${title}`, styles.active);
+          SetLoadingState(true);
         }}>
-          <img src={src} alt={alt} />  
+        {content}
       </button>
     </>
   )

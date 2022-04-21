@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import NavigationLink from './components/NavegationLink';
-// import LoadingSpinner from './components/LoadingSpinner'
 import { useCssHandles } from 'vtex.css-handles';
 
 interface MultisiteProps {

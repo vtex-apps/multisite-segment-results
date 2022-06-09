@@ -7,6 +7,7 @@ import atob from 'atob';
 type Props = {
   segmentParameter: string;
   segmentValue: number;
+  isDefault: boolean
 };
 
 declare let window: {
@@ -16,36 +17,31 @@ declare let window: {
 const ConditionalSegmentBlock: FC<Props> = ({
   segmentParameter,
   segmentValue,
+  isDefault,
   children,
 }) => {
   //obtener de la cookie vtex_segment
   const segmentToken = window?.__RUNTIME__?.segmentToken;
-  const segmentTokenInfo = JSON.parse(atob(segmentToken));
+  const defaultBanner = isDefault;
+  let selectedSegment = <>{defaultBanner && children}</>;
 
-  let segmentFacet = (segmentTokenInfo.facets).split("=");
-  let facetParameter = segmentFacet[0];
-  let facetParameterId = segmentFacet[1].split(";")[0];
+  if (segmentToken) {
+    const segmentTokenInfo = JSON.parse(atob(segmentToken));
+    
+    if (segmentTokenInfo && segmentTokenInfo.facets) {
+      let segmentFacet = (segmentTokenInfo.facets).split("=");
+      let facetParameter = segmentFacet[0];
+      let facetParameterId = segmentFacet[1].split(";")[0];  
+      const condition = segmentValue == facetParameterId;
 
-  console.log("segmentTokenInfo", segmentTokenInfo);
-  console.log("segmentValue", segmentParameter);
-  console.log("segmentValue", segmentValue);
-  console.log("segment Facet", segmentFacet);
-  console.log("segment Facet parameter:", facetParameter);
-  console.log("segment Facet parameterId:", facetParameterId);
+      if (segmentParameter === facetParameter) {
+        selectedSegment = <>{condition && children}</>;
+      }
+    }
 
-  const defaultBanner = segmentValue === 137;
-
-  if (facetParameter === "null") {
-    return <>{defaultBanner && children}</>;
   }
 
-  const condition = segmentValue == facetParameterId;
-
-  if (segmentParameter === facetParameter) {
-    return <>{condition && children}</>;
-  }
-
-  return <></>;
+  return selectedSegment;
 };
 
 export default ConditionalSegmentBlock;

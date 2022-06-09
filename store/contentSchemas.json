@@ -104,6 +104,11 @@
                     "title": "segmentValue",
                     "type": "number",
                     "default": null
+                },
+                "isDefault": {
+                    "title": "isDefault",
+                    "type": "boolean",
+                    "default": false
                 }
             }   
         }

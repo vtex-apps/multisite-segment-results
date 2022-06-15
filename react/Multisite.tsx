@@ -3,7 +3,6 @@ import NavigationLink from './components/NavegationLink';
 import { useCssHandles } from 'vtex.css-handles';
 
 interface MultisiteProps {
-  parameter: string,
   src1: string,
   alt1: string,
   title1: string,
@@ -32,7 +31,6 @@ const SetActiveClassOnReload = () =>{
 }
  
 const Multisite: StorefrontFunctionComponent<MultisiteProps> = ({
-    parameter, 
     src1, 
     alt1,
     title1, 
@@ -64,7 +62,6 @@ const Multisite: StorefrontFunctionComponent<MultisiteProps> = ({
     <div className={`${handles.multisiteSegmentatitionResultsContainer} flex ph7 pv2 items-center`}>
 
       <NavigationLink 
-        parameter={parameter} 
         src={src1}
         alt={alt1}
         title={title1}
@@ -73,7 +70,6 @@ const Multisite: StorefrontFunctionComponent<MultisiteProps> = ({
       </NavigationLink>
 
       <NavigationLink 
-        parameter={parameter} 
         src={src2}
         alt={alt2}
         title={title2}
@@ -82,7 +78,6 @@ const Multisite: StorefrontFunctionComponent<MultisiteProps> = ({
       </NavigationLink>
 
       <NavigationLink 
-        parameter={parameter} 
         src={src3}
         alt={alt3}
         title={title3}

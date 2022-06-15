@@ -25,13 +25,8 @@
     "title": "Multisite Segment Results",
     "type": "object",
     "properties": {
-      "parameter": {
-        "title": "Product segmentation parameter",
-        "description": "You need to set this parameter for the component to be able to configure the search. (E.g. productClusterIds, brandId, categoryId)",
-        "type": "string"
-      },
       "parameterValue": {
-        "title": "Default parameter ID",
+        "title": "Default segmentation productClustersId",
         "description": "You need to configure this ID to indicate the results when the user is not authenticated.",
         "type": "string"
       }

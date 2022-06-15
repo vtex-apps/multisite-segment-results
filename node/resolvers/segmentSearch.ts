@@ -6,17 +6,13 @@ export const queries = {
     context: Context
   ) => {
 
-    const { parameter, parameterValue } = await context.clients.apps.getAppSettings(
+    const { parameterValue } = await context.clients.apps.getAppSettings(
       `${process.env.VTEX_APP_ID}`
     )
-
-    console.log("args", args)
-
-    console.log(`key: ${parameter}, value: ${parameterValue}`)
+    const parameter = 'productClustersId';
     
     if(args.isAuthenticated === true){
       const selectedFacets = args.selectedFacets || [];
-
       if (selectedFacets.length > 0){
         return [{ key: selectedFacets[0].key, value: selectedFacets[0].value }];
       } 

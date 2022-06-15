@@ -1,8 +1,6 @@
 {
   "editor.multisite.title"                     : "Multisite",
   "editor.multisite.description"               : "Multisite component",
-  "editor.multisite.parameter"                 : "Segmentation parameter",
-  "editor.multisite.parameter.description"     : "Product parameter used for search segmentation. (E.g. categoryId, brandID, productClustersId).",
   "editor.multisite.navigation.name1"          : "First navigation name",
   "editor.multisite.navigation.default"        : "Name",
   "editor.multisite.navigation.value1"         : "First parameter ID",

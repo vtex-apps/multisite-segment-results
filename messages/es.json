@@ -1,8 +1,6 @@
 {
   "editor.multisite.title"                     : "Multisitio",
   "editor.multisite.description"               : "Componente Multisitio",
-  "editor.multisite.parameter"                 : "Parametro de segmentación",
-  "editor.multisite.parameter.description"     : "Parámetro del producto utilizado para la segmentación de búsqueda.",
   "editor.multisite.navigation.name1"          : "Primer nombre de la navegación",
   "editor.multisite.navigation.default"        : "Nombre",
   "editor.multisite.navigation.value1"         : "Primer ID de parametro",

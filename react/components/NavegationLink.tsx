@@ -5,12 +5,13 @@ import LoadingSpinner from './LoadingSpinner';
 // import LoadingSpinner from './component/LoadingSpinner';
 
 interface NavigationLinkProps {
-    parameter: string,
     src: string,
     alt: string,
     title: string,
     idValue: number,
 }
+
+const parameter = 'productClustersId';
 
 const SetFacets = async(parameter: string, parameterValue: number, btn: string, activeClass: any) => {
   const data = {
@@ -46,7 +47,7 @@ const SetLocalStorageBtnActiveClass = (btn: string, activeClass: string) =>{
   localStorage.setItem("btnActiveClass", activeClass);
 }
 
-const NavigationLink: StorefrontFunctionComponent<NavigationLinkProps> = ({parameter, src, alt, title, idValue}) => {
+const NavigationLink: StorefrontFunctionComponent<NavigationLinkProps> = ({src, alt, title, idValue}) => {
   
   const [loadingState, SetLoadingState] = useState(false);
 

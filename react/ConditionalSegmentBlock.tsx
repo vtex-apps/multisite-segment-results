@@ -5,7 +5,6 @@ import type { Runtime } from './typings/global';
 import atob from 'atob';
 
 type Props = {
-  segmentParameter: string;
   segmentValue: number;
   isDefault: boolean
 };
@@ -15,12 +14,12 @@ declare let window: {
 };
 
 const ConditionalSegmentBlock: FC<Props> = ({
-  segmentParameter,
   segmentValue,
   isDefault,
   children,
 }) => {
   //obtener de la cookie vtex_segment
+  const segmentParameter = 'productClustersId';
   const segmentToken = window?.__RUNTIME__?.segmentToken;
   const defaultBanner = isDefault;
   let selectedSegment = <>{defaultBanner && children}</>;

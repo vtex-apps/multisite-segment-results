@@ -3,16 +3,6 @@
         "Multisite": {
             "type": "object",
             "properties": {
-                "parameter": {
-                    "title": "editor.multisite.parameter",
-                    "type": "string",
-                    "enum": [
-                        "productClusterIds",
-                        "categoryId",
-                        "brandId"
-                    ],
-                    "default": "productClusterIds"
-                },
                 "src1": {
                     "title": "admin/editor.image.src.title",
                     "$ref": "app:vtex.native-types#/definitions/url",
@@ -90,16 +80,6 @@
         "ConditionalSegmentBlock": {
             "type": "object",
             "properties": {
-                "segmentParameter": {
-                    "title": "editor.multisite.parameter",
-                    "type": "string",
-                    "enum": [
-                        "productClusterIds",
-                        "categoryId",
-                        "brandId"
-                    ],
-                    "default": "productClusterIds"
-                },
                 "segmentValue": {
                     "title": "segmentValue",
                     "type": "number",

@@ -5249,10 +5249,6 @@ verror@1.10.0:
   version "9.146.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide#66db40ca1b78ad77ce4beedabecee320e1ef2ead"
 
-"vtexarg.multisite-segment-results@https://multisitesegment--pocmultisitiofty.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@1.0.1+build1650480940/public/@types/vtexarg.multisite-segment-results":
-  version "0.0.0"
-  resolved "https://multisitesegment--pocmultisitiofty.myvtex.com/_v/private/typings/linked/v1/vtexarg.multisite-segment-results@1.0.1+build1650480940/public/@types/vtexarg.multisite-segment-results#03a7ed647c664c27338c9a1f7841571c0a7a17b0"
-
 w3c-hr-time@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
